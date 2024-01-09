@@ -1,0 +1,51 @@
+/* coment*/
+body{
+    background-color: aquamarine;
+}
+h2 {
+    font-size: 32px
+}
+
+h1 {
+    columns: blue;
+    font-size: 48px;
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Mansalva', sans-serif;
+}
+#africa{
+    border-color: blueviolet;
+}
+#asia{
+    border-color: brown;
+}
+#proba{
+    color: blueviolet;
+}
+img {
+    width: 480px;
+    height: 360px;
+    border: 3px solid rgb(124, 11, 11);
+    border-color:3px solid blue;
+    border-radius: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-style: solid;
+    border-color: black;*/
+}
+a{
+    text-decoration: none;
+}
+/*th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}*/
