@@ -1,24 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
-*{
+
+* {
     margin: 0;
 }
-body{
+
+body {
     background-color: whitesmoke;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
-.header{
+
+.header {
     height: 400px;
     background-image: url(../images/coffee-bgnd.jpeg);
     background-position: center;
     background-size: cover;
     border-top: 1px solid transparent;
+    /* padding: 133px;
+    box-sizing: border-box; */
 }
-h1{
+
+h1 {
     font-size: 100px;
     font-family: 'Covered By Your Grace', cursive;
     color: rgb(3, 150, 100, 0.75);
     text-align: center;
     margin-top: 10%;
 }
-    
+
+.main {
+    background-image: url(https://image.winudf.com/v2/image/Y29tLmxheWxhbGkuY29mZmVld2FsbHBhcGVyX3NjcmVlbl8xXzE1MjEwOTUxMzRfMDMy/screen-1.jpg?fakeurl=1&type=.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1300px;
+    padding: 0;
+    position: relative;
+}
+
+.main div {
+    margin: 40px 2%;
+    border: 3px solid #e4bb97;
+    padding: 30px;
+    width: 40%;
+    height: 300px;
+
+}
+
+.main div>h2 {
+    font-weight: 800;
+    font-size: 28px;
+    background-color: rgb(184, 135, 135);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main div>p {
+    color: #d7d2d2;
+    font-size: 20px ;
+
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.main div>a {
+    columns: #eb9c6f;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: italic;
+
+}
+
+.brazil {
+
+    top: -40px;
+    right: 0;
+    position: absolute;
+
+}
+
+.india {
+    top: 365px;
+    right: 0;
+    position: absolute;
+
+}
+
+.costa-rica {
+    top: 770px;
+    right: 0;
+    position: absolute;
+}
