@@ -74,8 +74,13 @@ footer {
     display: inline;
 }
 
-span>img {
-    width: 162px;
+div>img{
+    width: 160px;
+}
+
+.div1>div {
+    margin-left: 5px;
+    display: inline;
 }
 
 section>img {
